@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@theme inline {
+	--font-heading: var(--font-oswald-sans);
+	--font-sans: var(--font-outfit-sans);
+	--font-serif: var(--font-instrument-serif);
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-outfit-sans);
+}
+
+h1 {
+	@apply text-[3rem] md:text-[5rem] leading-[1.1] text-center tracking-tight font-medium text-[#13156d] font-serif;
+}
+
+h2,
+h3,
+h4 {
+	@apply font-heading uppercase text-[2.5rem] md:text-[4rem] leading-[1.1] tracking-tight font-medium;
+}
+
+p {
+	@apply text-[0.938rem] md:text-[1.125rem] font-sans;
+}
