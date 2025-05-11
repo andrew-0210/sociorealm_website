@@ -10,7 +10,7 @@ const About = () => {
 				We&apos;re a team of creators, developers, and strategists who blend
 				creativity with conversion. At Sociorealm, we craft standout websites,
 				build powerful web apps, and deliver marketing that moves the needle.
-				Whether you're launching a brand or leveling up an existing one,
+				Whether you&apos;re launching a brand or leveling up an existing one,
 				we&apos;re here to make sure your digital presence isn&apos;t just seen
 				— it&apos;s remembered.
 			</p>
