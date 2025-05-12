@@ -10,12 +10,20 @@ const tabs = [
 		name: "About",
 		href: "/about",
 	},
+	{
+		name: "Solutions",
+		href: "/about",
+	},
+	{
+		name: "Resources",
+		href: "/",
+	},
 ];
 
 const Header = () => {
 	return (
-		<header>
-			<nav className="flex items-center justify-between px-[1.25rem] md:px-[2rem] py-[0.75rem]">
+		<header className="fixed w-full bg-[#fff] z-40">
+			<nav className="flex items-center justify-between px-[1.25rem] md:px-[2rem] py-[0.5rem] border-b border-[#d1d1d1]">
 				<Link href="/">
 					<div className="relative w-[8.5rem] h-[3rem] md:w-[14rem] md:h-[5rem]">
 						<Image
