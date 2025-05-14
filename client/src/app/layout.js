@@ -1,4 +1,4 @@
-import { Outfit, Instrument_Serif, Oswald } from "next/font/google";
+import { Outfit, Instrument_Serif, Oswald, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -21,6 +21,10 @@ const instrumentSerif = Instrument_Serif({
 	preload: true,
 	weight: "400",
 });
+const jetBrainsMono = JetBrains_Mono({
+	variable: "--font-jetbrains-mono",
+	subsets: ["latin"],
+});
 
 export const metadata = {
 	title: "Sociorealm | Where Ideas Click and Brands Stick",
@@ -32,7 +36,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body
-				className={`${outfitSans.variable} ${oswaldSans.variable}  ${instrumentSerif.variable} antialiased`}>
+				className={`${outfitSans.variable} ${oswaldSans.variable} ${jetBrainsMono.variable} ${instrumentSerif.variable} antialiased`}>
 				<Header />
 				{children}
 				<Footer />
