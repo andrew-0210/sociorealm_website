@@ -9,6 +9,7 @@
 	--font-heading: var(--font-oswald-sans);
 	--font-sans: var(--font-outfit-sans);
 	--font-serif: var(--font-instrument-serif);
+		--font-jetbrains: var(--font-jetbrains-mono);
 }
 
 body {
