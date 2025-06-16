@@ -3,17 +3,6 @@ import Image from "next/image";
 const Hero = () => {
 	return (
 		<section className="bg-[#ae9ded] overflow-x-hidden h-dvh px-[1.25rem] md:px-0 flex flex-col items-center justify-between py-[2rem]">
-			<div className="absolute right-0 bottom-0">
-				<div className="relative w-dvw h-[30dvw] md:h-[14dvw] ">
-					<Image
-						src="/rounded.svg"
-						alt="rounded_shape"
-						priority
-						fill
-						className="object-cover"
-					/>
-				</div>
-			</div>
 			<div>
 				<div className="relative w-dvw h-[10dvw]">
 					<Image
