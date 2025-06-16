@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+	--background: #fff6e7;
+	--foreground: #171717;
+}
+
+@theme inline {
+	--font-sans: var(--font-manrope-sans);
+	--font-serif: var(--font-instrument-serif);
+	--font-handwritten: var(--font-caveat-hand);
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-manrope-sans);
+}
