@@ -1,9 +1,9 @@
-const WhyYourCompany = () => {
+lconst WhyYourCompany = () => {
 	return (
 		<section className="bg-[#000000] text-[#fff] py-[6.25rem] px-[1.25rem] h-full">
 			<div className="max-w-[1440px] mx-auto flex justify-start text-left md:justify-center md:text-center">
 				<div className="max-w-[590px] flex flex-col gap-[1.25rem] md:gap-[2rem]">
-					<span className="font-serif text-[2rem] italic">
+					<span className="font-serif text-[1.25rem] md:text-[2rem] italic">
 						The billion dollar question
 					</span>
 					<h2 className=" text-[1.75rem] md:text-[3.5rem] uppercase font-extrabold leading-[2.25rem] md:leading-[58px] tracking-[-0.5px] text-[#52ffa9]">
