@@ -1,4 +1,4 @@
-import { Instrument_Serif, Manrope, Caveat } from "next/font/google";
+import { Instrument_Serif, DM_Sans, Caveat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 
@@ -8,10 +8,10 @@ const instrumentSerif = Instrument_Serif({
 	weight: ["400"],
 });
 
-const manropeSans = Manrope({
-	variable: "--font-manrope-sans",
+const dmSans = DM_Sans({
+	variable: "--font-dm-sans",
 	subsets: ["latin"],
-	weight: ["500", "600", "700", "800"],
+	weight: ["400","500", "600", "700", "800"],
 });
 const caveatHand = Caveat({
 	variable: "--font-caveat-hand",
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body
-				className={`${instrumentSerif.variable} ${manropeSans.variable} ${caveatHand.variable} antialiased`}>
+				className={`${instrumentSerif.variable} ${dmSans.variable} ${caveatHand.variable} antialiased`}>
 				<Header />
 				{children}
 			</body>
