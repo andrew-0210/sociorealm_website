@@ -1,4 +1,5 @@
-import Image from "next/image";
+// import Image from "next/image";
+import { Image } from "@imagekit/next";
 
 const Hero = () => {
 	return (
@@ -6,6 +7,7 @@ const Hero = () => {
 			<div>
 				<div className="relative w-dvw h-[10dvw]">
 					<Image
+						urlEndpoint="https://ik.imagekit.io/imagestore0210"
 						src="/sociorealm_header.svg"
 						alt="Sociorealm_logo"
 						priority

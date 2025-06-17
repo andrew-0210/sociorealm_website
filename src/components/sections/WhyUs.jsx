@@ -1,6 +1,6 @@
 const WhyUs = () => {
 	return (
-		<section className="h-dvh px-[1.25rem] py-[6.25rem]  ">
+		<section className="h-full px-[1.25rem] py-[6.25rem]  ">
 			<div className="max-w-[1440px] mx-auto flex items-center">
 				<div className="max-w-[590px] flex flex-col gap-[1.25rem] md:gap-[2rem] items-start">
 					<h2 className=" text-[1.75rem] md:text-[3.5rem] uppercase font-extrabold leading-[2.25rem] md:leading-[58px] tracking-[-0.5px]">
