@@ -1,4 +1,4 @@
-lconst WhyYourCompany = () => {
+const WhyYourCompany = () => {
 	return (
 		<section className="bg-[#000000] text-[#fff] py-[6.25rem] px-[1.25rem] h-full">
 			<div className="max-w-[1440px] mx-auto flex justify-start text-left md:justify-center md:text-center">
