@@ -17,7 +17,7 @@ const WhyUs = () => {
 					<span className="font-handwritten text-[2rem] md:text-[3.5rem] text-[#AF4FBE] font-bold tracking-tight leading-[1.25]">
 						Okay fine, 153% of the time.
 					</span>
-					<button className="uppercase text-[1rem] md:text-[1.125rem] font-extrabold py-[1rem] bg-[#4fbe9f] rounded-full border-[2px] border-[#004e39] shadow-[0_6px_0px_rgba(0,78,57,1)] min-w-[342px] transition-shadow duration-200 ease-in hover:shadow-none">
+					<button className="uppercase text-[1rem] md:text-[1.125rem] font-extrabold py-[1rem] bg-[#4fbe9f] rounded-full border-[2px] border-[#004e39] shadow-[0_6px_0px_rgba(0,78,57,1)] min-w-[250px] md:min-w-[342px] transition-shadow duration-200 ease-in hover:shadow-none">
 						Know How
 					</button>
 				</div>
