@@ -1,7 +1,7 @@
 const WhyYourCompany = () => {
   return (
     <section className="h-full bg-[#000000] px-[1.25rem] py-[6.25rem] text-[#fff]">
-      <div className="mx-auto flex max-w-[1440px] justify-start text-left md:justify-center md:text-center">
+      <div className="mx-auto flex max-w-[1280px] justify-start text-left md:justify-center md:text-center">
         <div className="flex max-w-[650px] flex-col gap-[1.25rem] md:gap-[2rem]">
           <span className="font-serif text-[1.25rem] italic md:text-[2rem]">
             The billion dollar question

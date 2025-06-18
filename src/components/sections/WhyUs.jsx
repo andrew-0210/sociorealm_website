@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 const WhyUs = () => {
   return (
     <section className="h-full px-[1.25rem] py-[6.25rem]">
-      <div className="mx-auto flex max-w-[1440px] items-center">
+      <div className="mx-auto flex max-w-[1280px] items-center">
         <div className="flex max-w-[590px] flex-col items-start gap-[1.25rem] md:gap-[2rem]">
           <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
             Your Brand could be 153% more memorable.
