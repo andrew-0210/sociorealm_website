@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function CTA() {
   return (
-    <section className="h-full px-[1.25rem] py-[6.25rem] bg-[#da45df]">
+    <section className="h-full px-[1.25rem] py-[6.25rem] bg-[#b345df]">
       <div className="mx-auto flex max-w-[1440px] items-center">
         <div className="flex max-w-[400px] flex-col gap-[1.25rem] md:gap-[2rem]">
           <h3 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
