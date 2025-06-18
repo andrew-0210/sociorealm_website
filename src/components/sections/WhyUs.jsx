@@ -3,7 +3,7 @@ const WhyUs = () => {
     <section className="h-full px-[1.25rem] py-[6.25rem]">
       <div className="mx-auto flex max-w-[1440px] items-center">
         <div className="flex max-w-[590px] flex-col items-start gap-[1.25rem] md:gap-[2rem]">
-          <h2 className="text-[1.75rem] leading-[2.25rem] font-extrabold tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
+          <h2 className="font-heading text-[1.5rem] leading-[2.25rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
             Your Brand could be 153% more memorable.
           </h2>
           <p className="text-[0.938rem] leading-[1.5] font-semibold tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">

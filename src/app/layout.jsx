@@ -1,23 +1,12 @@
-import { Instrument_Serif, DM_Sans, Caveat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-
-const instrumentSerif = Instrument_Serif({
-  variable: "--font-instrument-serif",
-  subsets: ["latin"],
-  weight: ["400"],
-});
-
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
-const caveatHand = Caveat({
-  variable: "--font-caveat-hand",
-  subsets: ["latin"],
-});
+import {
+  instrumentSerif,
+  caveatHand,
+  dmSans,
+  akiraExpanded,
+} from "@/fonts/font";
 
 export const metadata = {
   title: "Sociorealm | Where Ideas Click and Brands Stick",
@@ -29,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${instrumentSerif.variable} ${dmSans.variable} ${caveatHand.variable} antialiased`}
+        className={`${instrumentSerif.variable} ${dmSans.variable} ${caveatHand.variable} ${akiraExpanded.variable} antialiased`}
       >
         <Header />
         {children}
