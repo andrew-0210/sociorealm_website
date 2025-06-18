@@ -6,7 +6,7 @@ const WhyYourCompany = () => {
           <span className="font-serif text-[1.25rem] italic md:text-[2rem]">
             The billion dollar question
           </span>
-          <h2 className="font-heading text-[1.5rem] leading-[2.25rem] tracking-[-0.5px] text-[#52ffa9] uppercase md:text-[3.5rem] md:leading-[58px]">
+          <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] text-[#52ffa9] uppercase md:text-[3.5rem] md:leading-[58px]">
             Why does your company exist?
           </h2>
           <p className="text-[0.938rem] leading-[1.5] font-semibold tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">
