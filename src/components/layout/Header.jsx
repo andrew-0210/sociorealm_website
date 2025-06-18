@@ -1,41 +1,32 @@
+"use client";
 import Link from "next/link";
-
-const links = [
-	{
-		label: "Home",
-		href: "/",
-	},
-	{
-		label: "Work",
-		href: "/work",
-	},
-	{
-		label: "About Us",
-		href: "/about_us",
-	},
-	{
-		label: "Solutions",
-		href: "/solutions",
-	},
-];
+import { usePathname } from "next/navigation";
+import links from "@/constants/navLinks";
 
 const Header = () => {
-	return (
-		<header className="fixed bottom-0 w-full flex justify-center z-[999] p-[2rem] ">
-			<nav className="flex flex-col items-center justify-center bg-[#2a2a2a]/50 backdrop-blur-sm py-[1rem] px-[2rem] rounded-full border-[1.5px] border-[#fafafa]">
-				<ul className="flex gap-[1.25rem]">
-					{links.map((link, i) => (
-						<li key={i}>
-							<Link
-								href={link.href}
-								className="text-white text-[0.875rem]">
-								{link.label}
-							</Link>
-						</li>
-					))}
-				</ul>
-			</nav>
-		</header>
-	);
+  const path = usePathname();
+
+  return (
+    <header className="fixed bottom-0 z-[999] flex w-full justify-center p-[2rem]">
+      <nav className="flex flex-col items-center justify-center rounded-full border-[1.5px] border-[#fafafa] bg-[#2a2a2a]/50 px-[2rem] py-[1rem] backdrop-blur-sm">
+        <ul className="flex gap-[1.25rem]">
+          {links.map((link, i) => (
+            <li key={i}>
+              <Link
+                href={link.href}
+                className={
+                  path === link.href
+                    ? "text-[1rem] font-semibold text-[#4fbe9f]"
+                    : "text-[0.875rem] text-white"
+                }
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  );
 };
 export default Header;
