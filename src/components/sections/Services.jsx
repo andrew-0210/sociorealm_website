@@ -61,7 +61,7 @@ export default function Services() {
               />
             </div>
             <div className="flex flex-col gap-[.5rem] md:w-[50%]">
-              <h3 className="font-heading text-[1.25rem] md:text-[2rem]">
+              <h3 className="font-heading text-[1.25rem] md:text-[2rem] md:leading-[1.5]">
                 {SERVICES_INFO[selectedService].title}
               </h3>
               <p className="text-[0.938rem] leading-[1.5] font-medium tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">
