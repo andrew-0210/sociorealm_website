@@ -51,7 +51,7 @@ export default function Services() {
         </menu>
         {selectedService && (
           <div className="flex w-full flex-col gap-[2rem] rounded-[1.25rem] bg-white p-[1.25rem] md:flex-row md:gap-[8rem] md:p-[4rem]">
-            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:w-[50vw]">
+            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:w-[50%] md:h-[20vh]">
               <Image
                 urlEndpoint="https://ik.imagekit.io/imagestore0210"
                 src={SERVICES_INFO[selectedService].image}
@@ -60,7 +60,7 @@ export default function Services() {
                 className="object-cover"
               />
             </div>
-            <div className="flex flex-col gap-[.5rem] md:max-w-[50vw]">
+            <div className="flex flex-col gap-[.5rem] md:w-[50%]">
               <h3 className="font-heading text-[1.25rem] md:text-[2rem]">
                 {SERVICES_INFO[selectedService].title}
               </h3>
