@@ -17,7 +17,7 @@ export default function Services() {
         <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
           Our Solutions
         </h2>
-        <menu className="scroll-container flex w-full justify-between md:rounded-full md:overflow-x-hidden md:border px-[0.5rem] py-[0.5rem] items-center">
+        <menu className="scroll-container flex w-full items-center justify-between px-[0.5rem] py-[0.5rem] md:overflow-x-hidden md:rounded-full md:border">
           <TabButton
             isSelected={selectedService === "ui_design"}
             onSelect={() => handleSelect("ui_design")}
@@ -50,8 +50,8 @@ export default function Services() {
           </TabButton>
         </menu>
         {selectedService && (
-          <div className="flex w-full flex-col gap-[2rem] rounded-[20px] bg-white p-[1.5rem] md:flex-row md:gap-[8rem] md:p-[4rem]">
-            <div className="relative h-[30vh] w-full md:w-[50vw]">
+          <div className="flex w-full flex-col gap-[2rem] rounded-[1.25rem] bg-white p-[1.25rem] md:flex-row md:gap-[8rem] md:p-[4rem]">
+            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:w-[50vw]">
               <Image
                 urlEndpoint="https://ik.imagekit.io/imagestore0210"
                 src={SERVICES_INFO[selectedService].image}
