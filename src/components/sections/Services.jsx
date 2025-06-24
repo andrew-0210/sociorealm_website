@@ -15,7 +15,7 @@ export default function Services() {
     <section className="h-full px-[1.25rem] py-[6.25rem]">
       <div className="mx-auto flex max-w-[1280px] flex-col items-center gap-[1.25rem]">
         <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
-          Services
+          Our Solutions
         </h2>
         <menu className="scroll-container flex w-full justify-between rounded-full md:overflow-x-hidden md:border md:px-[2.5rem]">
           <TabButton
