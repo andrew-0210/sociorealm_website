@@ -17,7 +17,7 @@ export default function Services() {
         <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
           Our Solutions
         </h2>
-        <menu className="scroll-container flex w-full justify-between rounded-full md:overflow-x-hidden md:border md:px-[2.5rem]">
+        <menu className="scroll-container flex w-full justify-between md:rounded-full md:overflow-x-hidden md:border px-[0.5rem] py-[0.5rem] items-center">
           <TabButton
             isSelected={selectedService === "ui_design"}
             onSelect={() => handleSelect("ui_design")}
