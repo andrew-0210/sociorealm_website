@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       <div className="max-w-[1280px] mx-auto">
-        <p className="z-20 max-w-[600px] text-center text-[1rem] leading-[1.5] font-semibold tracking-[-0.5] md:pb-[3rem] md:text-[1.125rem]">
+        <p className="z-20 max-w-[600px] text-center text-[1rem] leading-[1.5] font-medium tracking-[-0.5] md:pb-[3rem] md:text-[1.125rem]">
           From pixel-perfect websites to scroll-stopping campaigns,we bring the
           tools, talent, and vibes to help your business win hearts and clicks
           online.

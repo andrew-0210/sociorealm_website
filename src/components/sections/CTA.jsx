@@ -8,7 +8,7 @@ export default function CTA() {
           <h3 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] text-[#fff] uppercase md:text-[3.5rem] md:leading-[58px]">
             Our promise to you.
           </h3>
-          <p className="text-[0.938rem] leading-[1.5] font-semibold tracking-[-0.5px] whitespace-pre-line text-[#fff] md:text-[1.125rem]">
+          <p className="text-[0.938rem] leading-[1.5] font-medium tracking-[-0.5px] whitespace-pre-line text-[#fff] md:text-[1.125rem]">
             Your brand launch should feel less like a checkbox and more like a
             career mic-drop. Let's make it one to remember.
           </p>

@@ -17,3 +17,13 @@ body {
   color: var(--foreground);
   font-family: var(--font-dm-sans);
 }
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

@@ -8,7 +8,7 @@ const WhyUs = () => {
           <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
             Your Brand could be 153% more memorable.
           </h2>
-          <p className="text-[0.938rem] leading-[1.5] font-semibold tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">
+          <p className="text-[0.938rem] leading-[1.5] font-medium tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">
             Okay, we might have made that stat up. But it caught your attention,
             didn&apos;t it? That&apos;s the point - to make you pause, think,
             and remember. At Sociorealm, making your brand unforgettable

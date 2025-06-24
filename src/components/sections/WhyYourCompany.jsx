@@ -9,7 +9,7 @@ const WhyYourCompany = () => {
           <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] text-[#52ffa9] uppercase md:text-[3.5rem] md:leading-[58px]">
             Why does your company exist?
           </h2>
-          <p className="text-[0.938rem] leading-[1.5] font-semibold tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">
+          <p className="text-[0.938rem] leading-[1.5] font-medium tracking-[-0.5px] whitespace-pre-line md:text-[1.125rem]">
             You know what makes you awesome. The tricky part? Getting everyone
             else to see it. That&apos;s where we come in - decoding your
             brand&apos;s brilliance and turning it into messaging that actually
