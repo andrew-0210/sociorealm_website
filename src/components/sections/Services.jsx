@@ -51,7 +51,7 @@ export default function Services() {
         </menu>
         {selectedService && (
           <div className="flex w-full flex-col gap-[1.5rem] rounded-[1.25rem] bg-white p-[1.25rem] md:flex-row md:gap-[3rem] md:py-[2.5rem] md:px-[3rem]">
-            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:w-[50%] md:h-[25vh]">
+            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:w-[50%] md:h-[20vh]">
               <Image
                 urlEndpoint="https://ik.imagekit.io/imagestore0210"
                 src={SERVICES_INFO[selectedService].image}
