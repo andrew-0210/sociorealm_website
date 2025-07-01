@@ -1,6 +1,6 @@
 import "./globals.css";
 import Header from "@/components/layout/Header";
-// import Footer from "@/components/layout/Footer";
+import Footer from "@/components/layout/Footer";
 import {
   instrumentSerif,
   caveatHand,
@@ -18,11 +18,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${instrumentSerif.variable} ${dmSans.variable} ${caveatHand.variable} ${akiraExpanded.variable} antialiased`}
+        className={`${instrumentSerif.variable} ${dmSans.variable} ${caveatHand.variable} ${akiraExpanded.variable} antialiased overflow-x-hidden`}
       >
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
