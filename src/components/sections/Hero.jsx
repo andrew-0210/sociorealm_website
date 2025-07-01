@@ -9,7 +9,7 @@ const Hero = () => {
           <Image
             urlEndpoint="https://ik.imagekit.io/imagestore0210"
             src="/sociorealm_header.svg"
-            alt="Sociorealm_logo"
+            alt="sociorealm_logo"
             priority
             fill
           />
