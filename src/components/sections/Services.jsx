@@ -17,7 +17,7 @@ export default function Services() {
         <h2 className="font-heading text-[1.5rem] leading-[1.875rem] tracking-[-0.5px] uppercase md:text-[3.5rem] md:leading-[58px]">
           Our Solutions
         </h2>
-        <menu className="scroll-container flex w-full items-center justify-between md:overflow-x-hidden py-[0.5rem] px-[0.25rem]">
+        <menu className="scroll-container flex w-full items-center justify-between px-[0.25rem] py-[0.5rem] md:overflow-x-hidden">
           <TabButton
             isSelected={selectedService === "ui_design"}
             onSelect={() => handleSelect("ui_design")}
@@ -50,8 +50,8 @@ export default function Services() {
           </TabButton>
         </menu>
         {selectedService && (
-          <div className="flex w-full flex-col gap-[1.5rem] rounded-[1.25rem] bg-white p-[1.25rem] md:flex-row md:gap-[3rem] md:py-[2.5rem] md:px-[3rem] items-center justify-center">
-            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:w-[50%] md:h-[20vh]">
+          <div className="flex w-full flex-col items-center justify-center gap-[1.5rem] rounded-[1.25rem] bg-white p-[1.25rem] md:flex-row md:gap-[3rem] md:px-[2rem] md:py-[2rem]">
+            <div className="relative h-[30vh] w-full overflow-clip rounded-[0.75rem] md:h-[50vh] md:w-[40%]">
               <Image
                 urlEndpoint="https://ik.imagekit.io/imagestore0210"
                 src={SERVICES_INFO[selectedService].image}
@@ -60,7 +60,7 @@ export default function Services() {
                 className="object-cover"
               />
             </div>
-            <div className="flex flex-col gap-[0.5rem] md:w-[50%]">
+            <div className="flex flex-col gap-[0.5rem] md:w-[40%]">
               <h3 className="font-heading text-[1.25rem] md:text-[2rem] md:leading-[1.2]">
                 {SERVICES_INFO[selectedService].title}
               </h3>
